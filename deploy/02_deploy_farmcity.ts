@@ -63,6 +63,6 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 };
 
 func.tags = ["FarmCity", "main"];
-func.dependencies = ["MockUSDT"];
+// func.dependencies = ["MockUSDT"];
 
 export default func;

@@ -66,6 +66,6 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 };
 
 func.tags = ["FarmCityStaking", "main"];
-func.dependencies = ["FarmCity", "MockUSDT"];
+// func.dependencies = ["FarmCity", "MockUSDT"];
 
 export default func;
