@@ -1,0 +1,39 @@
+{
+  "name": "contract2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat deploy --network localhost",
+    "deploy:hardhat": "hardhat deploy --network hardhat",
+    "deploy:mainnet": "hardhat deploy --network mainnet",
+    "deploy:sepolia": "hardhat deploy --network sepolia",
+    "deploy:bsc": "hardhat deploy --network bsc",
+    "deploy:bsc-testnet": "hardhat deploy --network bscTestnet",
+    "deploy:polygon": "hardhat deploy --network polygon",
+    "deploy:mumbai": "hardhat deploy --network mumbai",
+    "deploy:arbitrum": "hardhat deploy --network arbitrum",
+    "deploy:arbitrum-goerli": "hardhat deploy --network arbitrumGoerli",
+    "deploy:optimism": "hardhat deploy --network optimism",
+    "deploy:avalanche": "hardhat deploy --network avalanche",
+    "deploy:fuji": "hardhat deploy --network fuji",
+    "deploy-and-verify": "hardhat run scripts/deploy-local.ts --network localhost"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.1.0",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/hardhat-upgrades": "^3.9.1",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.26.1",
+    "hardhat-deploy": "^1.0.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^5.4.0"
+  }
+}
